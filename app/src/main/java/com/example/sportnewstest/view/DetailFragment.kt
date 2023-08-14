@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.sportnewstest.R
 import com.example.sportnewstest.databinding.FragmentDetailBinding
@@ -31,6 +32,9 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setText()
+        binding.btnBack.setOnClickListener {
+            findNavController().navigate(R.id.action_detailFragment_to_newsFragment)
+        }
     }
 
     private fun setText() {
