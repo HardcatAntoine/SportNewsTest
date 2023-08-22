@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192279803706",
+    "project_id": "sportnewstest-c8535",
+    "storage_bucket": "sportnewstest-c8535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192279803706:android:5c4b7dfe64f757bf084203",
+        "android_client_info": {
+          "package_name": "com.example.sportnewstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192279803706-lllfa79r100bp6a944ihrhjliscbhscv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbWtLLcUbpMbZ4CCwo7EVwlp_Lhy83iRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192279803706-lllfa79r100bp6a944ihrhjliscbhscv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
